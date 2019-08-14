@@ -194,3 +194,21 @@ header {
   margin-left: 21%;
   padding: 10px 0 10px 0;
 }
+.intro {
+  height: 110px;
+  background-color: #4a93cf;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  margin: auto;
+  padding: 2%;
+  text-align: justify;
+}
+.intro p {
+  font-size: 14px;
+  color: white;
+  width: 85%;
+}
+.intro h2 {
+  padding-bottom: 0;
+}
