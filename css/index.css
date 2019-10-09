@@ -134,6 +134,15 @@ html,
 body {
   height: 100%;
 }
+a {
+  color: #f5f5f5;
+}
+a:visited {
+  color: #19a657;
+}
+a:hover {
+  color: #f5f5f5;
+}
 #bodystyle {
   display: flex;
   justify-content: space-evenly;
@@ -235,6 +244,10 @@ body {
 }
 .content .content-header p {
   font-size: 1rem;
+}
+.content .content-header p a:link {
+  color: #f5f5f5;
+  text-decoration: none;
 }
 .content .content-box {
   width: 45%;
